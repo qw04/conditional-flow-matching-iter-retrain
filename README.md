@@ -2,7 +2,7 @@
 
 # Iterative Retraining Implemented on top of TorchCFM: a Conditional Flow Matching library
 
-Everything Below is relevant and still works. I just added in a retrain file that tests the stability of this particular model for some example toy datasets.
+Everything Below is relevant and still works. I just added in a retrain file that tests the stability of this particular model when iteratively retraining for some example toy datasets.
 
 <!---[![Conference](http://img.shields.io/badge/AnyConference-year-4b44ce.svg)](https://papers.nips.cc/paper/2020) -->
 
