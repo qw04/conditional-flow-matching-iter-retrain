@@ -1,8 +1,12 @@
 <div align="center">
 
-# Iterative Retraining Implemented on top of TorchCFM: a Conditional Flow Matching library
+# Iterative Retraining with Conditional Flow Matching
 
-Everything Below is relevant and still works. I just added in a retrain file that tests the stability of this particular model when iteratively retraining for some example toy datasets.
+**What I added:** `retrain.py`, which tests how stable Conditional Flow Matching models are when repeatedly retrained on their own output, using example toy datasets.
+
+**What the research found:** across this and the companion [DDPM experiments](https://github.com/qw04/ddpm-torch-iter-retrain), there was no single pattern. Depending on the dataset, models diverged, collapsed to a single mode, or stayed relatively stable, measured with precision, recall and Wasserstein distance. Presented at the Warwick URSS Showcase.
+
+Everything below is the original [TorchCFM](https://github.com/atong01/conditional-flow-matching) README, and still applies.
 
 <!---[![Conference](http://img.shields.io/badge/AnyConference-year-4b44ce.svg)](https://papers.nips.cc/paper/2020) -->
 
